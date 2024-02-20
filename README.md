@@ -2,7 +2,7 @@
 ### This data set provides mileage, horsepower, model year, and other technical specifications for cars.
 ## Part 1 (8 points): Your objective is to perform Exploratory data analysis on the dataset. Complete the following:
 ### Identify shape and size of the raw data
-### Get information about the types of data. Does it need any datatype conversion? If needed perform the conversion. <- chatgpt helps on coverting the horse power variable from string type to float type
+### Get information about the types of data. Does it need any datatype conversion? If needed perform the conversion. <- chatgpt helps on coverting the horse power variable from string type to float type when error comes up for using .astype function for the conversion
 ### Drop non-important columns if needed <- chatgpt helps insight on drop the car_name variable column as a string variables non-important for the calculation
 ### Is the data missing in any of the columns?
 ### Derive statistical information from the data: can you predict any outliers using this information?
