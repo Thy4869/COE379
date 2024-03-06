@@ -6,11 +6,11 @@
 ### Drop non-important columns if needed <- chatgpt helps insight on drop the car_name variable column as a string variables non-important for the calculation
 ### Is the data missing in any of the columns?
 ### Derive statistical information from the data: can you predict any outliers using this information?
-### Perform one-hot encoding of categorical data if needed
+### Perform one-hot encoding of categorical data 
 ### Visualize the dataset through different univariate and bivariate analysis plots.
 ### Find correlations between different columns
 ### Provide your insights on what variables affect the fuel efficiency of automobiles
-## Part 2 (7 points): Fit Regression models on the data to predict the fuel efficiency of cars:
+## Part 2 (7 points): Fit Linear Regression models on the data to predict the fuel efficiency of cars:
 ### Split the dataset into Training and Test sets
 ### Fit Linear Regression model on it
 ### Calculate the accuracy for training and test data
