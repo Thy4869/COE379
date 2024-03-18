@@ -41,15 +41,7 @@
   - Used hyperparameter tuning techniques like grid search or random search.
 
 - **Model Performance Evaluation:**
-  - K Nearest Neighbor (KNN) classifier accuracy: 0.87.
+  - K Nearest Neighbor (KNN) and Logistic Regression classifier accuracy: 0.87.
   - Random Forest Classifier and Decision Tree Classifier accuracy: 0.98.
   - Logistic Regression and KNN showed similar performance, while Random Forest and Decision Tree outperformed in capturing underlying patterns.
 
-- **Recommendations for Model Selection:**
-  - Random Forest model is recommended due to its performance across various measures.
-  - Random Forest slightly outperformed Decision Tree by averaging results across multiple trees.
-
-- **Handling False Positives and False Negatives:**
-  - Optimizing recall (minimizing false negatives) is crucial, especially in applications like medical diagnosis or fraud detection.
-  - Balancing precision and recall is essential, along with ensuring accuracy to reduce missed detections.
-  - Achieving an F1 score, which evaluates both accuracy and thoroughness, is ideal for this situation.
