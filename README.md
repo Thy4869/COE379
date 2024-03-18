@@ -21,3 +21,35 @@
 ### What procedure did you use to train the model?
 ### How does the model perform to predict the fuel efficiency?
 ### How confident are you in the model?
+
+#####
+# Project 2
+### This dataset comprises various features related to a classification problem, with preprocessing steps applied to handle missing values, encode categorical variables, and scale numerical features before training multiple classification models.
+## Data Preparation and Model Evaluation
+
+- **Data Preparation:**
+  - Checked and dropped missing values, null values, non-numerical, and string values.
+  - Encoded categorical string variables and dropped the "breast" variable.
+  - Scaled numerical features and analyzed each variable using data plot visualization.
+
+- **Model Training Techniques:**
+  - Employed various classification supervised learning techniques:
+    - Logistic regression
+    - Decision trees
+    - Random forests
+    - K-nearest neighbor classifiers.
+  - Used hyperparameter tuning techniques like grid search or random search.
+
+- **Model Performance Evaluation:**
+  - K Nearest Neighbor (KNN) classifier accuracy: 0.87.
+  - Random Forest Classifier and Decision Tree Classifier accuracy: 0.98.
+  - Logistic Regression and KNN showed similar performance, while Random Forest and Decision Tree outperformed in capturing underlying patterns.
+
+- **Recommendations for Model Selection:**
+  - Random Forest model is recommended due to its performance across various measures.
+  - Random Forest slightly outperformed Decision Tree by averaging results across multiple trees.
+
+- **Handling False Positives and False Negatives:**
+  - Optimizing recall (minimizing false negatives) is crucial, especially in applications like medical diagnosis or fraud detection.
+  - Balancing precision and recall is essential, along with ensuring accuracy to reduce missed detections.
+  - Achieving an F1 score, which evaluates both accuracy and thoroughness, is ideal for this situation.
