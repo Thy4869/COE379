@@ -29,8 +29,8 @@
 
 - **Data Preparation:**
   - Checked and dropped missing values, null values, non-numerical, and string values.
-  - Encoded categorical string variables and dropped the "breast" variable.
   - Scaled numerical features and analyzed each variable using data plot visualization.
+  - Encoded categorical string variables and dropped the "breast" variable.
 
 - **Model Training Techniques:**
   - Employed various classification supervised learning techniques:
